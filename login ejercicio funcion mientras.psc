@@ -10,7 +10,7 @@ Proceso login
 	
 	Mientras intentos < 3 Hacer
 		
-		Escribir "ingresa la contraseña";
+		Escribir "ingresa la contraseÃ±a";
 		leer password_ingresada;
 		
 		Si password_ingresada= password_correcto Entonces
@@ -19,11 +19,11 @@ Proceso login
 			
 			intentos <- 3;
 		SiNo
-			Escribir "contraseña incorreta";
+			Escribir "contraseÃ±a incorreta";
 			
 			intentos <- 1 +  intentos;
 			
-			Escribir "intento ", intentos, "de 3";
+			Escribir "intento ", intentos, " de 3";
 			
 			Si intentos = 3 Entonces
 				Escribir "no puedes acceder";
